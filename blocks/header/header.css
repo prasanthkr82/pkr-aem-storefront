@@ -535,6 +535,7 @@ header .breadcrumbs ol li:last-of-type {
     display: block;
   }
 }
+
 @media screen and (width >= 1200px) {
   header .breadcrumbs {
     padding: 100px 0 0;
