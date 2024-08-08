@@ -294,7 +294,6 @@ main a.button:any-link,
 button.button {
   font: var(--type-button-2-font);
   letter-spacing: var(--type-button-2-letter-spacing);
-  /* display: inline-block; */
   display: inline-flex;
   justify-content: center;
   column-gap: 10px;
