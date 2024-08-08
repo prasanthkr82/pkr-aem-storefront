@@ -2,16 +2,20 @@
     margin-bottom: 10px;
     color: var(--color-neutral-50);
 }
+
 .alert-wrapper .alert p {
     margin: 0;
     padding: 10px;
 }
+
 .alert-wrapper .alert.alert-success {
     background-color: var(--color-positive-800);
 }
+
 .alert-wrapper .alert.alert-error {
     background-color: var(--color-alert-800);
 }
+
 .alert-wrapper .alert.alert-warning {
     background-color: var(--color-warning-800);
 }
