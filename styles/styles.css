@@ -14,6 +14,11 @@
 
 :root {
   /* Adobe Commerce Dropin design tokens */
+  --link-color: #035fe6;
+  --link-hover-color: #136ff6;
+  --light-color: #eee;
+  --dark-color: #ccc;
+  --text-color: black;
   --color-brand-300: #6d6d6d;
   --color-brand-500: #454545;
   --color-brand-600: #383838;
@@ -289,7 +294,9 @@ main a.button:any-link,
 button.button {
   font: var(--type-button-2-font);
   letter-spacing: var(--type-button-2-letter-spacing);
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  column-gap: 10px;
   box-sizing: border-box;
   text-decoration: none;
   border: var(--shape-border-width-3) solid transparent;
